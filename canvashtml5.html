@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Aula Animação Keyframes</title>
+  	<style>
+      body { background-color: #f1f0ff; }
+      #animation  {
+        background-image: url("C:\\Users\\CDB 04\\Desktop\\projetohtml5\\animacao.png");
+        width: 120px;
+        height: 128px;
+        -webkit-animation: ciclo-animacao 1.0s steps(10) infinite;
+        animation: ciclo-animacao 1.0s steps(10) infinite;
+      }
+      @-webkit-keyframes ciclo-animacao {
+        from { background-position: 0px; }
+        to { background-position: 1200px; }
+      }
+      @Keyframes ciclo-animacao {
+        from { background-position: 0px; }
+        to { background-position: 1200px; }
+      }
+  	</style>
+  </head>
+<body>
+
+    <div id="animation"></div>
+
+</body>
+</html>
