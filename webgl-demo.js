@@ -240,7 +240,6 @@ function handleTextureLoaded(image, texture) {
   gl.generateMipmap(gl.TEXTURE_2D);
   gl.bindTexture(gl.TEXTURE_2D, null);
 }
-
 //
 // drawScene
 //
